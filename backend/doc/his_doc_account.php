@@ -84,50 +84,6 @@
 
                                 </div> <!-- end card-box -->
 
-                            </div> <!-- end col-->
-                            <!--Vitals-->
-                            <div class="col-lg-6 col-xl-6">
-                                <div class="table-responsive">
-                                    <table class="table table-borderless mb-0">
-                                        <thead class="thead-light">
-                                            <tr>
-                                                <th>Body Temperature</th>
-                                                <th>Heart Rate/Pulse</th>
-                                                <th>Respiratory Rate</th>
-                                                <th>Blood Pressure</th>
-                                                <th>Date Recorded</th>
-                                            </tr>
-                                        </thead>
-                                        <?php
-                                            $vit_pat_number =$_SESSION['doc_number'];
-                                            $ret="SELECT  * FROM his_vitals WHERE vit_pat_number =?";
-                                            $stmt= $mysqli->prepare($ret) ;
-                                            $stmt->bind_param('i',$vit_pat_number );
-                                            $stmt->execute() ;//ok
-                                            $res=$stmt->get_result();
-                                            //$cnt=1;
-                                            
-                                            while($row=$res->fetch_object())
-                                                {
-                                            $mysqlDateTime = $row->vit_daterec; //trim timestamp to date
-
-                                        ?>
-                                            <tbody>
-                                                <tr>
-                                                    <td><?php echo $row->vit_bodytemp;?>°C</td>
-                                                    <td><?php echo $row->vit_heartpulse;?>BPM</td>
-                                                    <td><?php echo $row->vit_resprate;?>bpm</td>
-                                                    <td><?php echo $row->vit_bloodpress;?>mmHg</td>
-                                                    <td><?php echo date("Y-m-d", strtotime($mysqlDateTime));?></td>
-                                                </tr>
-                                            </tbody>
-                                        <?php }?>
-                                    </table>
-                                    </div>
-                                </div> <!-- end col-->
-                        </div>
-                        <!-- end row-->
-
                     </div> <!-- container -->
 
                 </div> <!-- content -->

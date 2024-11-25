@@ -73,11 +73,9 @@
 
         <?php } ?>
 
-
-
     </head>
 
-    <body class="authentication-bg authentication-bg-pattern">
+    <body class="authentication-bg authentication-bg-pattern" style="background-image: url('assets/images/background image.png'); background-size: cover; background-position: center center;">
 
         <div class="account-pages mt-5 mb-5">
             <div class="container">
@@ -112,28 +110,6 @@
 
                                 </form>
 
-                                <!--
-                                For Now Lets Disable This 
-                                This feature will be implemented on later versions
-                                <div class="text-center">
-                                    <h5 class="mt-3 text-muted">Sign in with</h5>
-                                    <ul class="social-list list-inline mt-3 mb-0">
-                                        <li class="list-inline-item">
-                                            <a href="javascript: void(0);" class="social-list-item border-primary text-primary"><i class="mdi mdi-facebook"></i></a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a href="javascript: void(0);" class="social-list-item border-danger text-danger"><i class="mdi mdi-google"></i></a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a href="javascript: void(0);" class="social-list-item border-info text-info"><i class="mdi mdi-twitter"></i></a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a href="javascript: void(0);" class="social-list-item border-secondary text-secondary"><i class="mdi mdi-github-circle"></i></a>
-                                        </li>
-                                    </ul>
-                                </div> 
-                                -->
-
                             </div> <!-- end card-body -->
                         </div>
                         <!-- end card -->
@@ -153,7 +129,6 @@
             <!-- end container -->
         </div>
         <!-- end page -->
-
 
         <?php include ("assets/inc/footer1.php");?>
 

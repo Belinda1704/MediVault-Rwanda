@@ -18,7 +18,7 @@
 
     </head>
 
-    <body class="authentication-bg authentication-bg-pattern">
+    <body class="authentication-bg authentication-bg-pattern" style="background-image: url('assets/images/background image.png'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
 
         <div class="account-pages mt-5 mb-5">
             <div class="container">

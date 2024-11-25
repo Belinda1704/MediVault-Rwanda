@@ -15,10 +15,9 @@
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
-
     </head>
 
-    <body class="authentication-bg authentication-bg-pattern">
+    <body class="authentication-bg authentication-bg-pattern" style="background-image: url('assets/images/background image.png'); background-size: cover; background-position: center center;">
 
         <div class="account-pages mt-5 mb-5">
             <div class="container">
@@ -27,7 +26,7 @@
                         <div class="card bg-pattern">
 
                             <div class="card-body p-4">
-                                
+                                  
                                 <div class="text-center w-75 m-auto">
                                     <a href="his_admin_logout.php">
                                         <span><img src="assets/images/favicon.png" alt="" height="22"></span>
@@ -67,7 +66,6 @@
             <!-- end container -->
         </div>
         <!-- end page -->
-
 
         <?php include('assets/inc/footer1.php');?>
 
