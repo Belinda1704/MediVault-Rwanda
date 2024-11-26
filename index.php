@@ -61,7 +61,10 @@
                     <a href="#services" class="btn btn-primary btn-lg mt-3">Explore Features</a>
                 </div>
                 <div class="col-lg-4">
-                    <img src="assets/images/onboarding_image.png" alt="Healthcare Illustration" class="img-fluid">
+                    <img src="assets/images/onboarding image.png" 
+                         alt="Healthcare Illustration" 
+                         class="img-fluid" 
+                         style="width: 120%; height: auto;">
                 </div>
             </div>
         </div>
