@@ -38,8 +38,8 @@
                 {
                     $mysqlDateTime = $row->pay_date_generated;//trim timestamp to DD/MM/YYYY formart
 
-                    //calculate salary total salary after 16% taxation
-                    $tax = 16/100;
+                    //calculate salary total salary after 18% taxation
+                    $tax = 18/100;
                     $salary = $row->pay_emp_salary;
                     $total_salary = $tax*$salary;
             ?>
@@ -72,7 +72,7 @@
                                         <!-- Logo & title -->
                                         <div class="clearfix">
                                             <div class="float-left">
-                                                <img src="assets/images/logo-dark.png" alt="" height="20">
+                                                <img src="assets/images/logo/logo-full.png" alt="" height="20">
                                             </div>
                                             <div class="float-right">
                                                 <h4 class="m-0 d-print-none"><?php echo $row->pay_doc_name;?> Payroll</h4>
@@ -144,17 +144,17 @@
                                                                         $mysqlDateTime = $row->pay_date_generated;//trim timestamp to DD/MM/YYYY formart
 
                                                                         //calculate salary total salary after 16% taxation
-                                                                        $tax = 16/100;
+                                                                        $tax = 18/100;
                                                                         $salary = $row->pay_emp_salary;
                                                                         $taxable_salary = $tax*$salary;
 
                                                                         //get total salary after tax reduction
                                                                         $total_salary = $salary - $taxable_salary;
                                                                 ?>
-                                                            <td>$ <?php echo $row->pay_emp_salary;?></td>
-                                                            <td>16%</td>
+                                                            <td><?php echo $row->pay_emp_salary;?> Rwf</td>
+                                                            <td>18%</td>
                                                             
-                                                            <td class="text-right">$ <?php echo $taxable_salary;?></td>
+                                                            <td class="text-right"><?php echo $taxable_salary;?> Rwf</td>
                                                         </tr>
                                                         </tbody>
                                                     </table>
@@ -175,9 +175,9 @@
                                             </div> <!-- end col -->
                                             <div class="col-sm-6">
                                                 <div class="float-right">
-                                                    <p><b>Sub-total:</b> <span class="float-right">$ <?php echo $row->pay_emp_salary;?></span></p>
-                                                    <p><b>PAYE Tax (16%) :</b> <span class="float-right"> &nbsp;&nbsp;&nbsp; <?php echo $taxable_salary;?> </span></p>
-                                                    <h3>$ <?php echo $total_salary;?></h3>
+                                                    <p><b>Sub-total:</b> <span class="float-right"><?php echo $row->pay_emp_salary;?> Rwf</span></p>
+                                                    <p><b>PAYE Tax (18%) :</b> <span class="float-right"> &nbsp;&nbsp;&nbsp; <?php echo $taxable_salary;?> </span></p>
+                                                    <h3><?php echo $total_salary;?> Rwf</h3>
                                                 </div>
                                                 <div class="clearfix"></div>
                                             </div> <!-- end col -->
