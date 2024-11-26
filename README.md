@@ -5,7 +5,7 @@ Transforming healthcare in Rwanda through seamless digital record-keeping.
 ---
 
 
-![Landing Page Screenshot](assets/images/image%201.png)
+![Landing Page Screenshot](assets/images/Image%201.png)
 
 ---
 
