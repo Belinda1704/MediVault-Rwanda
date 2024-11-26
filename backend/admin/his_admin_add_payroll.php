@@ -107,7 +107,7 @@
                                                     <td><?php echo $row->doc_number;?></td>
                                                     <td><?php echo $row->doc_email;?></td>   
                                                     <td><?php echo $row->doc_dept;?></td>
-                                                 
+
                                                     <td>
                                                         <a href="his_admin_view_single_employee.php?doc_id=<?php echo $row->doc_id;?>&&doc_number=<?php echo $row->doc_number;?>" class="badge badge-primary"><i class="mdi mdi-eye"></i> View</a>
                                                         <a href="his_admin_add_single_employee_payroll.php?doc_number=<?php echo $row->doc_number;?>" class="badge badge-success"><i class="fas fa-eye-dropper "></i> Add Payroll</a>

@@ -94,25 +94,6 @@
                             </div> <!-- end col-->
                             
                             <?php }?>
-                            <div class="col-lg-8 col-xl-8">
-                                <div class="card-box">
-                                    <ul class="nav nav-pills navtab-bg nav-justified">
-                                        <li class="nav-item">
-                                            <a href="#aboutme" data-toggle="tab" aria-expanded="false" class="nav-link active">
-                                                Prescription
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#timeline" data-toggle="tab" aria-expanded="true" class="nav-link ">
-                                                 Vitals
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#settings" data-toggle="tab" aria-expanded="false" class="nav-link">
-                                                Lab Records
-                                            </a>
-                                        </li>
-                                    </ul>
                                     <!--Medical History-->
                                     <div class="tab-content">
                                         <div class="tab-pane show active" id="aboutme">

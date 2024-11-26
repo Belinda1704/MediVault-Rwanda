@@ -8,7 +8,7 @@
     <!-- Page Title -->
     <title>MediVault.rw - An Integrated Patient Management System</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/logo/favicond.io.png" type="image/x-icon">
     <!-- CSS Files -->
     <link rel="stylesheet" href="assets/css/animate-3.7.0.css">
     <link rel="stylesheet" href="assets/css/font-awesome-4.7.0.min.css">
