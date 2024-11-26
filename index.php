@@ -32,7 +32,7 @@
                 <div class="row align-items-center justify-content-between d-flex">
                     <div id="logo">
                         <a href="index.php">
-                            <img src="assets/images/Lo-full.png" alt="MediVault Logo" style="height: 50px;">
+                            <img src="assets/images/logo/Logo-full.png" alt="MediVault Logo" style="height: 50px;">
                         </a>
                     </div>
                     <nav id="nav-menu-container">
@@ -61,10 +61,9 @@
                     <a href="#services" class="btn btn-primary btn-lg mt-3">Explore Features</a>
                 </div>
                 <div class="col-lg-4">
-                    <img src="assets/images/onboarding image.png" 
+                    <img src="assets/images/onboarding-image.png" 
                          alt="Healthcare Illustration" 
-                         class="img-fluid" 
-                         style="width: 120%; height: auto;">
+                         style="width: 1000px; height: 1000px; object-fit: cover;">
                 </div>
             </div>
         </div>

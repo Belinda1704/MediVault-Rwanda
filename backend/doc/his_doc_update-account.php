@@ -38,7 +38,7 @@
             $doc_pwd=sha1(md5($_POST['doc_pwd']));//double encrypt 
             
             //sql to insert captured values
-			$query="UPDATE his_doc SET doc_pwd =? WHERE doc_number = ?";
+			$query="UPDATE his_docs SET doc_pwd =? WHERE doc_number = ?";
 			$stmt = $mysqli->prepare($query);
 			$rc=$stmt->bind_param('si', $doc_pwd, $doc_number);
 			$stmt->execute();

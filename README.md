@@ -4,6 +4,11 @@ Transforming healthcare in Rwanda through seamless digital record-keeping.
 
 ---
 
+
+![Landing Page Screenshot](assets/images/image%201.png)
+
+---
+
 ## 📌 Overview
 
 **MediVault.rw** is a web-based **Integrated Patient Management System (IPMS)** designed to improve healthcare efficiency in Rwanda by providing a centralized platform for managing patient data. The system simplifies the management of patient records, prescriptions, employee data, and more, empowering hospitals to deliver better care through technology.
@@ -114,7 +119,7 @@ Ensure you have the following installed:
 - If using **WAMP** or **MAMP**, start the respective services.
 
 6. **Access the application**:
-- Open your browser and navigate to `http://localhost/MediVault` (or the appropriate directory on your server).
+- Open your browser and navigate to `http://localhost/MediVault.rw` (or the appropriate directory on your server).
 
 ### Example Login Details:
 
@@ -123,8 +128,8 @@ Ensure you have the following installed:
 - **Password**: Password@123
 
 #### Doctor Login:
-- **ID**: YDS7L
-- **Password**: password
+- **ID**: QFG3M
+- **Password**: Medivault@123
 
 ## Screenshots
 
