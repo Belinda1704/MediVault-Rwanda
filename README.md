@@ -18,6 +18,9 @@ Transforming healthcare in Rwanda through seamless digital record-keeping.
 ## 🎯 Key Features
 
 ### Administrator Features
+![Admin Screenshot](assets/images/Screenshot%202.png)
+
+
 - **Patients Management**:
   - Register, view, and manage patient records.
 - **Employees Management**:
@@ -36,6 +39,8 @@ Transforming healthcare in Rwanda through seamless digital record-keeping.
   - Add and manage payroll details.
 
 ### Doctor Features
+![Doctor Screenshot](assets/images/Screenshot%203.png)
+
 - **Patients Management**:
   - Add, view, manage, discharge, and transfer patients.
 - **Prescriptions Management**:
@@ -100,7 +105,7 @@ Ensure you have the following installed:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/MediVault.git
+   git clone https://github.com/Belinda1704/MediVault.git
 
 2. Navigate to the project directory:
     cd MediVault
