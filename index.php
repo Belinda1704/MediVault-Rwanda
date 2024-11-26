@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Page Title -->
-    <title>MediVault.rw - An Integrated Patient Management System</title>
+    <title>MediVault RW - An Integrated Patient Management System</title>
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/images/logo/favicond.io.png" type="image/x-icon">
     <!-- CSS Files -->
@@ -126,7 +126,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <p>&copy; 2024 MediVault.rw. All rights reserved.</p>
+                    <p>&copy; 2024 MediVault RW. All rights reserved.</p>
                 </div>
                 <div class="col-lg-6 text-right">
                     <a href="#" class="text-white mx-2"><i class="fa fa-facebook"></i></a>

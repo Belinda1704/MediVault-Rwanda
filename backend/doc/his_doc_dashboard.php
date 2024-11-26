@@ -41,7 +41,7 @@
                             <div class="col-12">
                                 <div class="page-title-box">
                                     
-                                    <h4 class="page-title">MediVault.rw -An Integrated Patient Mangement System</h4>
+                                    <h4 class="page-title">MediVault RW -An Integrated Patient Mangement System</h4>
                                 </div>
                             </div>
                         </div>     

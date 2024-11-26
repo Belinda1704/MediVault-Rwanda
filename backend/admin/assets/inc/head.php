@@ -1,6 +1,6 @@
 <head>
         <meta charset="utf-8" />
-        <title>MediVault.rw - An Integrated Patient Management System</title>
+        <title>MediVault RW - An Integrated Patient Management System</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
         <meta content="MartDevelopers" name="author" />
