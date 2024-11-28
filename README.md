@@ -1,4 +1,4 @@
-# MediVault.rw - Integrated Patient Management System (IPMS)
+# MediVault RW - Integrated Patient Management System (IPMS)
 
 Transforming healthcare in Rwanda through seamless digital record-keeping.
 
@@ -11,7 +11,7 @@ Transforming healthcare in Rwanda through seamless digital record-keeping.
 
 ## 📌 Overview
 
-**MediVault.rw** is a web-based **Integrated Patient Management System (IPMS)** designed to improve healthcare efficiency in Rwanda by providing a centralized platform for managing patient data. The system simplifies the management of patient records, prescriptions, employee data, and more, empowering hospitals to deliver better care through technology.
+**MediVault RW** is a web-based **Integrated Patient Management System (IPMS)** designed to improve healthcare efficiency in Rwanda by providing a centralized platform for managing patient data. The system simplifies the management of patient records, prescriptions, employee data, and more, empowering hospitals to deliver better care through technology.
 
 ---
 
@@ -86,11 +86,6 @@ Transforming healthcare in Rwanda through seamless digital record-keeping.
 
 Hospitals in Rwanda looking to digitize their medical records and processes for improved healthcare delivery.
 
----
-
-## 📸 Screenshots
-
-*(Add screenshots of the website here after development.)*
 
 ---
 
@@ -105,14 +100,14 @@ Ensure you have the following installed:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Belinda1704/MediVault.git
+   git clone https://github.com/Belinda1704/MediVault-Rwanda.git
 
 2. Navigate to the project directory:
-    cd MediVault
+    cd MediVault Rw
 
 3. **Set up the database**:
 - Import the provided `database.sql` file into your MySQL server.
-- Create a new database in your MySQL server (e.g., `mediavault`).
+- Create a new database in your MySQL server (e.g., `medivault`).
 - Run the SQL commands from `database.sql` to set up the required tables.
 
 4. **Configure the database connection**:
@@ -124,7 +119,7 @@ Ensure you have the following installed:
 - If using **WAMP** or **MAMP**, start the respective services.
 
 6. **Access the application**:
-- Open your browser and navigate to `http://localhost/MediVault.rw` (or the appropriate directory on your server).
+- Open your browser and navigate to `http://localhost/MediVault RW` (or the appropriate directory on your server).
 
 ### Example Login Details:
 
@@ -135,14 +130,6 @@ Ensure you have the following installed:
 #### Doctor Login:
 - **ID**: QFG3M
 - **Password**: Medivault@123
-
-## Screenshots
-
-*Screenshots of the application will be added here later.*
-
-## License
-
-This project is licensed under the MIT License.
 
 ## Contact
 
