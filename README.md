@@ -131,6 +131,9 @@ Ensure you have the following installed:
 - **ID**: QFG3M
 - **Password**: Medivault@123
 
+## Website URL
+http://medivaultrw.scienceontheweb.net/
+
 ## Contact
 
 For questions or collaboration opportunities, reach out to:
